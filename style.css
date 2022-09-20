@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    }
+
+header {
+    padding-top: 60px;
+    }
+header div {
+    width: 200px;
+    margin: auto;
+    background-image: linear-gradient(black 0%, grey 50%, white 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+
+    transition: transform .5s;
+    }
+
+header div:hover {
+    transform: scale(1.2);
+    }
+header img {
+    width: 100%;
+    border-radius: 50%;
+    }
+
+ul {
+    list-style: none;
+    }
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(22, 22, 92, 0.747) 0%, rgba(20, 14, 46, 0.692) 100%);
+    background-position: top center;
+    background-size: 100% auto;    
+    }
+body *{
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+    }
+
+main {
+    max-width: 2000px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+    }
+
+section {
+    color: rgba(255, 255, 255, 0.692);
+    background-image: (to top right, rgba(64, 64, 228, 0.800) 0%, rgb(117, 55, 117, 0.800) 20%, rgb(182, 86, 86, 0.800) 60%, rgb(179, 179, 101, 0.800) 80%, rgb(129, 207, 129, 0.800) 100%);
+    padding-top: 4px;
+    border-radius: 50%;
+    }
+section ul div h2{
+    font-size: 12px;
+    }
+section h2 {
+    letter-spacing: -0.50px;
+    }
+section p {
+    color: #121214;
+    font-size: 12px;
+    }
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+    }
+section ul li {
+    transition: transform .5s;
+    }
+section ul li:hover {
+    transform:scale(1.1)
+    }
+
+.divsection {
+        background-color:#2a263462;
+        padding: 32px;
+        padding-top: 24px;
+        border-radius: 5px;
+        }
+.movies-card{
+        background-image: linear-gradient(#97a9ca8a 0%, #25282e8c 100%);
+        padding: 25px;
+        padding-bottom: 60px;
+        text-align: center;
+        border-radius: 5px;
+        }
+.famous-list img{
+    width: 150px;
+    border-radius: 50%;
+}
+.movies-list img{
+    width: 150px;
+    border-radius: 8px;
+}
+.series-list img{
+    width: 150px;
+    border-radius: 8px;
+}
+.social-list img{
+        width: 30px;
+        border-radius: 50%;
+        }
