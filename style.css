@@ -108,23 +108,68 @@ section ul li:hover {
 .movies-list img {
     width: 150px;
     border-radius: 5px;
-    border: 2px solid #f5ff63;
+    border: 1px solid #ffffff;
     margin: auto;
     }
 .series-list img {
     width: 150px;
     border-radius: 8px;
-    border: 2px solid #e8ff6883;
+    border: 1px solid #ffffff;
     margin: auto;
     }
 .famous-list img {
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     margin: auto;
     }
 .social-list img {
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
     margin: auto;
+    }
+
+header div{
+    animation: fromTop .15s 1s backwards;
+    }
+    
+@keyframes fromTop {
+    from{
+    opacity: 0;    
+    transform: translateY(-30px);
+    }
+    
+    to{
+    opacity: 1;    
+    transform: translateY(0);
+    }
+}
+    
+main section{
+    animation: fromBottom .7s backwards;
+   }
+main section:nth-child(1){
+    animation-delay: 0s;
+   }
+main section:nth-child(2){
+    animation-delay: 1s;
+   }
+main section:nth-child(3){
+    animation-delay: 2s;
+   } 
+main section:nth-child(4){
+    animation-delay: 3s;
+   }
+    
+    
+@keyframes fromBottom {
+    from{
+        opacity: 0;    
+        transform: translateY(30px);
+        }
+      
+    to{
+        opacity: 1;    
+        transform: translateY(0);
+        }
     }
