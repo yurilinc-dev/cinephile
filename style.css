@@ -10,14 +10,13 @@ header {
 header div {
     width: 200px;
     margin: auto;
-    background-image: linear-gradient(black 0%, grey 50%, white 100%);
+    background-image: linear-gradient(#ffffff 0%, #e8ff6883 50%, #0099ff79 100%);
     border-radius: 50%;
     display: flex;
     padding: 4px;
 
     transition: transform .5s;
     }
-
 header div:hover {
     transform: scale(1.2);
     }
@@ -26,12 +25,14 @@ header img {
     border-radius: 50%;
     }
 
+
 ul {
     list-style: none;
     }
 
+
 body {
-    background-image: linear-gradient(to bottom right, rgba(22, 22, 92, 0.747) 0%, rgba(20, 14, 46, 0.692) 100%);
+    background-image: linear-gradient(to bottom right, #531c9ca2 0%,#7e48e0 20%, #202eaa 40%, #37b6e9 60%, #ad3ef7ad 100%);
     background-position: top center;
     background-size: 100% auto;    
     }
@@ -40,6 +41,7 @@ body *{
     line-height: 160%;
     }
 
+    
 main {
     max-width: 2000px;
     width: 90%;
@@ -49,20 +51,20 @@ main {
     }
 
 section {
-    color: rgba(255, 255, 255, 0.692);
+    color: rgba(255, 255, 255, 0.856);
     background-image: (to top right, rgba(64, 64, 228, 0.800) 0%, rgb(117, 55, 117, 0.800) 20%, rgb(182, 86, 86, 0.800) 60%, rgb(179, 179, 101, 0.800) 80%, rgb(129, 207, 129, 0.800) 100%);
     padding-top: 4px;
     border-radius: 50%;
     }
-section ul div h2{
-    font-size: 12px;
+section ul div h1{
+    font-size: 15px;
     }
 section h2 {
     letter-spacing: -0.50px;
     }
 section p {
     color: #121214;
-    font-size: 12px;
+    font-size: 15px;
     }
 section ul {
     display: flex;
@@ -77,32 +79,52 @@ section ul li:hover {
     transform:scale(1.1)
     }
 
+
 .divsection {
-        background-color:#2a263462;
-        padding: 32px;
-        padding-top: 24px;
-        border-radius: 5px;
-        }
-.movies-card{
-        background-image: linear-gradient(#97a9ca8a 0%, #25282e8c 100%);
-        padding: 25px;
-        padding-bottom: 60px;
-        text-align: center;
-        border-radius: 5px;
-        }
-.famous-list img{
+    background-image: linear-gradient(to bottom, #fff59d8e 0%, #f9f5ff46 100%);
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 25px;
+    }
+
+
+.movies-card {
+    background-image: linear-gradient(#ffffff 0%, #e8ff6883 50%, #0099ff79 100%);
+    padding: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 12px;
+    }
+.series-card {
+    background-image: linear-gradient(#0099ff79 0%, #e8ff6883 50%, #000000 100%);
+    padding: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 12px;
+    }
+
+
+
+.movies-list img {
     width: 150px;
+    border-radius: 5px;
+    border: 2px solid #f5ff63;
+    margin: auto;
+    }
+.series-list img {
+    width: 150px;
+    border-radius: 8px;
+    border: 2px solid #e8ff6883;
+    margin: auto;
+    }
+.famous-list img {
+    width: 200px;
     border-radius: 50%;
-}
-.movies-list img{
-    width: 150px;
-    border-radius: 8px;
-}
-.series-list img{
-    width: 150px;
-    border-radius: 8px;
-}
-.social-list img{
-        width: 30px;
-        border-radius: 50%;
-        }
+    border: 2px solid #ffffff;
+    margin: auto;
+    }
+.social-list img {
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    }
