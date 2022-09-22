@@ -69,11 +69,12 @@ section ul div h1{
     vertical-align: middle;
     }
 section h2 {
+    font-size: 30px;
     letter-spacing: -0.50px;
     }
 section p {
+    font-size: 18px;
     color: #121214;
-    font-size: 15px;
     }
 section ul {
     display: flex;
