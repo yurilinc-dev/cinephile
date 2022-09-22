@@ -32,7 +32,7 @@ ul {
 
 
 body {
-    background-image: linear-gradient(to bottom right, #040274 0%,#2b1258 20%, #040274 40%, #1b5c75 60%, #040274 100%);
+    background-image: linear-gradient(to top right, #010058 0%,#230b50 20%, #010038 40%, #2f004b 60%, #010042 100%);
     background-position: top center;
     background-size: 100% auto;    
     }
@@ -43,8 +43,8 @@ body *{
 
     
 main {
-    max-width: 2000px;
-    width: 90%;
+    max-width: 1350px;
+    width: 80%;
     margin: 32px auto;
     display: grid;
     gap: 24px;
@@ -56,8 +56,17 @@ section {
     padding-top: 4px;
     border-radius: 50%;
     }
+a {
+    color: #ffffff;
+    text-decoration-line: none;
+}
 section ul div h1{
     font-size: 15px;
+    
+    
+    display: table-cell;
+	text-align: center;
+    vertical-align: middle;
     }
 section h2 {
     letter-spacing: -0.50px;
@@ -81,7 +90,7 @@ section ul li:hover {
 
 
 .divsection {
-    background-image: linear-gradient(to bottom, #fff59d8e 0%, #f9f5ff46 100%);
+    background-image: linear-gradient(to bottom, #b64f4f8e 0%, #7315ff46 100%);
     padding: 32px;
     padding-top: 24px;
     border-radius: 25px;
@@ -89,14 +98,18 @@ section ul li:hover {
 
 
 .movies-card {
-    background-image: linear-gradient(#000000 0%, #e8ff6883 50%, #0099ff79 100%);
+    width: 200px;
+    height: 320px;
+    background-image: linear-gradient(#000000 0%, #f1c9ee71 50%, #000e5f79 100%);
     padding: 25px;
     padding-bottom: 20px;
     text-align: center;
     border-radius: 12px;
     }
 .series-card {
-    background-image: linear-gradient(#0099ff79 0%, #e8ff6883 50%, #000000 100%);
+    width: 200px;
+    height: 320px;
+    background-image: linear-gradient(#000000 0%, #f1c9ee71 50%, #000e5f79 100%);
     padding: 25px;
     padding-bottom: 20px;
     text-align: center;
@@ -107,7 +120,7 @@ section ul li:hover {
 
 .movies-list img {
     width: 150px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #ffffff;
     margin: auto;
     }
@@ -127,6 +140,7 @@ section ul li:hover {
     width: 40px;
     border-radius: 50%;
     margin: auto;
+    align-content: center;
     }
 
 header div{
