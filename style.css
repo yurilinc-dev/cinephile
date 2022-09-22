@@ -32,7 +32,7 @@ ul {
 
 
 body {
-    background-image: linear-gradient(to top right, #010058 0%,#230b50 20%, #010038 40%, #2f004b 60%, #010042 100%);
+    background-image: linear-gradient(to bottom left, #060547 0%, #2d0a6d 100%);
     background-position: top center;
     background-size: 100% auto;    
     }
